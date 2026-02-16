@@ -4,7 +4,7 @@ This repository contains three applied machine learning projects covering both *
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 - `1_manual_classification.ipynb`
 - `2_comparison_of_classifiers.ipynb`
@@ -12,7 +12,7 @@ This repository contains three applied machine learning projects covering both *
 
 ---
 
-# 🧠 Breast Cancer Classification
+# Breast Cancer Classification
 
 ## Dataset
 
@@ -27,7 +27,7 @@ The objective is to classify tumors as:
 
 ---
 
-## 🔎 Methodology
+## Methodology
 
 - Removed non-predictive ID column  
 - Encoded target variable  
@@ -37,7 +37,7 @@ The objective is to classify tumors as:
 
 ---
 
-## 🤖 Models Implemented
+## Models Implemented
 
 ### Decision Tree Classifier
 - Tuned using nested loops  
@@ -49,7 +49,7 @@ The objective is to classify tumors as:
 
 ---
 
-## 📊 Test Results
+## Test Results
 
 | Model           | Accuracy | Precision | Recall | F1     |
 |----------------|----------|-----------|--------|--------|
@@ -61,7 +61,7 @@ GaussianNB provides a better balance between precision and recall, making it the
 
 ---
 
-# 🏠 Real Estate Price Prediction
+# Real Estate Price Prediction
 
 ## Dataset
 
@@ -78,7 +78,7 @@ Non-predictive identifier columns were removed during preprocessing.
 
 ---
 
-## 🔎 Methodology
+## Methodology
 
 - 80/20 train-test split  
 - 5-fold cross-validation  
@@ -88,7 +88,7 @@ Non-predictive identifier columns were removed during preprocessing.
 
 ---
 
-## 📊 Models and Results
+## Models and Results
 
 | Model              | R²     | MAE   | MSE    |
 |-------------------|--------|--------|--------|
@@ -99,7 +99,7 @@ The Decision Tree Regressor outperforms Linear Regression, indicating non-linear
 
 ---
 
-# 🛠 Techniques Demonstrated
+# Techniques Demonstrated
 
 - Manual hyperparameter tuning  
 - Stratified cross-validation  
